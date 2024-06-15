@@ -4,6 +4,8 @@ This is an unofficial GTFS feed for the heritage streetcar service in Nelson, BC
 
 For more information on the service please see the [official website](https://nelsonstreetcar.org).
 
+### Permalink to download the latest feed: <https://github.com/npaun/gtfs-nelson-streetcar/blob/master/nelson-streetcar-gtfs.zip>
+
 ## Data Notes
 * This is a seasonal service running from mid-May to mid-October of each year. No service is available in the winter.
 * Fares are 'by donation', but there is currently no provision to supply this in the GTFS-Fares v2 specifiction. Therefore the fare listed is a 'suggested donation'
