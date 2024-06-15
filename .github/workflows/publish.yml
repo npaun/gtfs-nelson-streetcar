@@ -4,13 +4,20 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
+env:
+  GTFS_PATH: nelson-streetcar-gtfs.zip
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - run: |
-          zip -jr nelson-streetcar-gtfs.zip data
+          zip -jr $GTFS_PATH data
       - uses: npaun/md-gtfs-validator-action@main
         with:
-          gtfs_path: nelson-streetcar-gtfs.zip
+          gtfs_path: $GTFS_PATH
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        commit_message: 'Generate ZIP export'
+        file_pattern: $GTFS_PATH
