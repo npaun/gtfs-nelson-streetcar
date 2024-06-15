@@ -19,5 +19,6 @@ jobs:
         with:
           gtfs_path: $GTFS_PATH
       - uses: stefanzweifel/git-auto-commit-action@v5
-        commit_message: 'Generate ZIP export'
-        file_pattern: $GTFS_PATH
+        with:
+          commit_message: 'Generate ZIP export'
+          file_pattern: $GTFS_PATH
