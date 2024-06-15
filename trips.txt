@@ -1,2 +1,23 @@
-trip_id,route_id,service_id,block_id,trip_headsign,wheelchair_accessible
-EB01,SC,summer,SC23,Lakeside Park,
+trip_id,shape_id,route_id,service_id,block_id,trip_headsign,wheelchair_accessible
+EB01,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB01,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB02,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB02,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB03,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB03,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB04,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB04,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB05,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB05,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB06,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB06,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB07,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB07,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB08,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB08,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB09,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB09,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB10,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB10,WB,SC,SUMMER,SC23,Prestige Resort,1
+EB11,EB,SC,SUMMER,SC23,Lakeside Park,1
+WB11,WB,SC,SUMMER,SC23,Prestige Resort,1

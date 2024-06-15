@@ -1,7 +1,7 @@
 stop_id,stop_name,stop_lat,stop_lon,wheelchair_boarding
-S1,Lakeside Park,0.00,0.00,1
-S2,Carbarn / Streetcar Museum,0.00,0.00,2
-S3,Soccer Fields,0.00,0.00,2
-S4,Substation,0.00,0.00,2
-S5,Chahko Mika Mall,0.00,0.00,2
-S6,Prestige Resort,0.00,0.00,2
+S1,Lakeside Park,49.50751,-117.28005,1
+S2,Carbarn / Streetcar Museum,49.50543,-117.28144,2
+S3,Soccer Fields,49.50360,-117.28227,2
+S4,Substation,49.50044,-117.28588,2
+S5,Chahko Mika Mall,49.499651,-117.289824,2
+S6,Prestige Resort,49.49674,-117.29387,1

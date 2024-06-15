@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_contact_email
+Nicholas Paun,https://npaun.io/,en,gtfs@npaun.io
