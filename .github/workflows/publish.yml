@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v4
       - run: |
           zip -jr nelson-streetcar-gtfs.zip data
-      - uses: npaun/md-gtfs-validator-action@master
+      - uses: npaun/md-gtfs-validator-action@main
         with:
           gtfs_path: nelson-streetcar-gtfs.zip
