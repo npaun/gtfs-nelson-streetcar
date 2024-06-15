@@ -17,8 +17,8 @@ jobs:
           zip -jr $GTFS_PATH data
       - uses: npaun/md-gtfs-validator-action@main
         with:
-          gtfs_path: $GTFS_PATH
+          gtfs_path: ${{ env.GTFS_PATH }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'Generate ZIP export'
-          file_pattern: $GTFS_PATH
+          file_pattern: ${{ env.GTFS_PATH }}
