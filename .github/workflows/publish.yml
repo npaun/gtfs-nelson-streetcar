@@ -14,6 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
+          ./gen.py template/ data/
+      - run: |
           zip -jr $GTFS_PATH data
       - uses: npaun/md-gtfs-validator-action@main
         with:

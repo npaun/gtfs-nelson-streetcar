@@ -1,0 +1,2 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+SUMMER,1,1,1,1,1,1,1,20260523,20261018
